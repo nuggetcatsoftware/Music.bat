@@ -37,7 +37,7 @@ int main ( int argc, char * argv[] ) {
 		default :		/*has command line arguments, no mode selection. only playing music after delay.*/
 			if ( ! ( type = get_format ( argv[1] ) ) )
 				die ( "wrong link format. music.bat only accepts mp3 files, youtube"
-					  " links or custom names for youtube links you have set." );
+					  " links or custom names for youtube links you have set, please add your custom list." );
 			
 			delay = atoi ( argv[2] );
 			
